@@ -1,0 +1,39 @@
+HTA Front End Control Ideas
+
+• Import Media:
+- Navigate to File Explorer box on far left
+- Locate file/image you would like to import
+- Click "add" to confirm import
+- Image will be displayed in main viewport
+
+• Navigate through video (Track):
+-Select video bar in bottom menu
+- Left click to move to a new location
+- Click play to begin playing where you selected
+- Click pause to stop video or repeat this task to track to a different timestamp
+
+• Remove section of highlighted video:
+- Left click to place marker at portion to be cut
+- Press "k" keystroke to make a cut, splitting the video into two. Alternatively right click and select cut, but this is much slower than using K shortcut.
+- Navigate mouse and click to select portion to be removed
+- Press "Delete" to erase the portion.
+
+• Playback video:
+- Navigate to control bar at bottom center
+- Select play
+- Video will play out fully or stop by clicking pause button
+
+• Edit 3D Models:
+- Navigate to 3D viewport
+- Select 3D object with "G" keypress
+- Use mouse to scale (multiple mouse drags)
+- Right click to drop object
+
+• Saving/Exporting Final Product(finished video):
+- Choose file location by clicking small white folder icon in far right middle of the screen
+- Select destination (mouse moves and clicks)
+- Name or rename file (keystrokes)
+- Click "accept" to save destination
+- Adjust any necessary settings such as bitrate, framerate, resolution before exporting (mouse navigation and clicks)
+- Navigate to Render → Render Animation to begin animation
+- Video will be saved under file path previously selected
