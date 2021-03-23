@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(38, 38, 38);
+  overflow-x: hidden;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin: 8px;
+}
+
+p {
+  color: white;
+}
+
+label {
+  display: inline;
+  color: white;
+}
+
+input {
+  display: inline;
+}
+
+select {
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+hr.solid {
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+form {
+  padding-left: 15px;
+  right: 80%;
+}
+
+div.a {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.folder {
+  position: absolute;
+  width: 234px;
+  height: 737px;
+  left: 0px;
+  top: 0px;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #383f3f;
+  z-index: 1;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 20px;
+}
+.column {
+  float: left;
+  border-bottom-style: solid;
+  height: 72vh;
+}
+.left {
+  text-align: center;
+  width: 17%;
+  border-color: rgb(53, 53, 53);
+}
+.right {
+  width: 18%;
+  padding-left: 6px;
+  border-color: rgb(53, 53, 53);
+  overflow-y: scroll;
+}
+
+.middle {
+  width: 62%;
+  border-color: rgb(53, 53, 53);
+  border-left-style: solid;
+  border-right-style: solid;
+  border-width: 5px;
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.viewport {
+  margin-top: 4%;
+  border: 10px solid rgb(30, 30, 30);
+  width: 90%;
+  height: 75%;
+}
+
+.center {
+  margin: 0;
+  position: relative;
+  margin-top: 40px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.importClips {
+  margin: 5px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(92, 92, 92);
+  border-radius: 4px;
+  height: 75%;
+  overflow-y: scroll;
+  margin-top: 15px;
+  object-fit: fill;
+  text-align: center;
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+.importClips img {
+  padding: 5px;
+  position: relative;
+  margin-left: 10%;
+  cursor: grab;
+  width: 6vw;
+  display: block;
+  margin: auto;
+}
+
+.importClips img:hover {
+  padding: 5px;
+  position: relative;
+  cursor: grab;
+  filter: brightness(50%);
+}
+.import img {
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+}
+.import img:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+p2 {
+  color: black;
+}
+
+.centerButton {
+  /* centers the "Clear Unused Space" button */
+  margin-left: 25px;
+}

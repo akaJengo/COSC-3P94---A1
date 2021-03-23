@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+    <link rel="stylesheet" type="text/css" href="scrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="timeline.css" />
+    <link rel="stylesheet" type="text/css" href="viewportButtons.css" />
+    <title>Phase 2</title>
+  </head>
+  <nav class="topNav">
+    <div class="navBar">
+      <div class="dropdown">
+        <button class="dropbtn">File</button>
+        <div class="dropdown-content">
+          <a href="#">New File</a>
+          <a href="#">New Window</a>
+          <hr class="solid" />
+          <a href="#">Open File</a>
+          <a href="#">Open Recent</a>
+          <hr class="solid" />
+          <a href="#">Save File</a>
+          <a href="#">Save As</a>
+          <a href="#">Save Copy</a>
+          <hr class="solid" />
+          <a href="#">Import</a>
+          <a href="#">Export</a>
+          <hr class="solid" />
+          <a href="#">Exit</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Edit</button>
+        <div class="dropdown-content">
+          <a href="#">Undo</a>
+          <a href="#">Redo</a>
+          <hr class="solid" />
+          <a href="#">Cut</a>
+          <a href="#">Copy</a>
+          <a href="#">Paste</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Selection</button>
+        <div class="dropdown-content">
+          <a href="#">Zoom In</a>
+          <a href="#">Zoom Out</a>
+          <hr class="solid" />
+          <a href="#">Effects</a>
+          <a href="#">Trim</a>
+          <a href="#">Pan</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">View</button>
+        <div class="dropdown-content">
+          <a href="#">New Window</a>
+          <a href="#">Change Window</a>
+          <a href="#">Resize Window</a>
+          <hr class="solid" />
+          <a href="#">New Preview</a>
+          <a href="#">Move Preview</a>
+          <a href="#">Resize Preview</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Settings</button>
+        <div class="dropdown-content">
+          <a href="#">Change Resolution</a>
+          <a href="#">Change Layout</a>
+          <a href="#">Change Directory</a>
+          <hr class="solid" />
+          <a href="#">Import Effects/Settings</a>
+          <a href="#">Export Effects/Settings</a>
+        </div>
+      </div>
+      <div class="dropdownlogo">
+        <p>COSC 3P94 Course Project - Stage 2 - Team 11 🎉</p>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="column left">
+      <div class="import">
+        <form action="/action_page.php">
+          <input
+            type="file"
+            id="myFile"
+            name="filename"
+            style="color: white;"
+          />
+          <input type="submit" value="Upload" />
+        </form>
+      </div>
+
+      <div class="importClips">
+        <img
+          class="zoom"
+          src="Images/thumb/OpenFolder.png"
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+          cursor="pointer"
+          ;
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 11.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 12.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 13.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 14.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 15.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 16.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 17.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 18.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 19.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 16.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 17.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 18.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+        <img
+          class="zoom"
+          src="Images/thumb/Group 19.png "
+          alt="logo1"
+          align="left"
+          class="logo1"
+          width="100px"
+        />
+      </div>
+      <div class="import" title="Delete Current Clip">
+        <img
+          src="Images/trash.png "
+          alt="trash"
+          align="left"
+          class="logo1"
+          width="40px"
+        />
+      </div>
+    </div>
+    <div class="column middle">
+      <img
+        src="Images/beach.jpg"
+        alt="logo1"
+        align="center"
+        class="viewport"
+        width="500px"
+      />
+      <div class="center">
+        <div class="prevBut">
+          <img
+            class="zoom"
+            src="Images/View/SBButt.png"
+            alt="skip back"
+            height="28px"
+            title="Skip Back"
+          />
+          <img
+            class="zoom"
+            src="Images/View/RRButt.png"
+            alt="rewind"
+            height="28"
+            title="Rewind"
+          />
+          <img
+            class="zoom"
+            src="Images/View/PauseButt.png"
+            alt="pause"
+            height="28"
+            title="Pause"
+          />
+          <img
+            class="zoom"
+            src="Images/View/PlayButt.png"
+            alt="play"
+            height="28"
+            title="Play"
+          />
+          <img
+            class="zoom"
+            src="Images/View/FFButt.png"
+            alt="fast forward"
+            height="28"
+            title="Fast Forward"
+          />
+          <img
+            class="zoom"
+            src="Images/View/SFButt.png"
+            alt="skip forward"
+            height="28"
+            title="Skip Forward"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="column right">
+      <h3>Render Video</h3>
+      <label>Filename: </label>
+      <input type="text" id="fileName" name="fileName" size="18" />
+      <br />
+      <label>File Location: </label>
+      <button type="button">Browse</button>
+      <br /><br />
+      <label>Video Format: </label>
+      <select class="format" name="formatOption">
+        <option value="1">MP4</option>
+        <option value="2">AVI</option>
+        <option value="3">MOV</option>
+        <option value="4">WMV</option>
+        <option value="5">MKV</option>
+      </select>
+      <br /><br />
+      <div class="dropdown-menu">
+        <button class="menu-btn">Advanced Options</button>
+        <div class="menu-content">
+          <form>
+            <label>Resolution X: </label>
+            <input type="number" id="resX" name="resX" value="1920" />
+            <br />
+            <label>Resolution Y: </label>
+            <input type="number" id="resY" name="resY" value="1080" />
+            <br /><br />
+            <label>Frame Rate: </label>
+            <input type="number" id="frameRate" name="frameRate" value="24" />
+            <br /><br />
+            <label>Compression (%): </label>
+            <input
+              type="number"
+              id="compress"
+              name="compress"
+              value="5"
+              min="0"
+              max="100"
+            />
+            <br />
+            <input type="reset" value="Reset" />
+          </form>
+        </div>
+      </div>
+      <script>
+        let dropdownBtn = document.querySelector(".menu-btn");
+        let menuContent = document.querySelector(".menu-content");
+        dropdownBtn.addEventListener("click", () => {
+          if (menuContent.style.display === "") {
+            menuContent.style.display = "block";
+          } else {
+            menuContent.style.display = "";
+          }
+        });
+      </script>
+      <br /><br />
+      <button>Publish Video</button>
+      <br />
+      <hr class="solid" />
+      <h3>Edit Clip</h3>
+      <form>
+        <label>Trim Start (Seconds)</label>
+        <input type="number" id="startTrim" name="startTrim" value="0" />
+        <br />
+        <label>Trim End (Seconds)</label>
+        <input type="number" id="endTrim" name="endTrim" value="0" />
+        <br />
+        <input type="reset" value="Reset" />
+      </form>
+      <hr class="solid" />
+      <h3>Clip Transitions</h3>
+      <form>
+        <label>Start Transition: </label>
+        <select class="tStart" name="tStart">
+          <option value="1">None</option>
+          <option value="2">Dissolve</option>
+          <option value="3">Wipe</option>
+          <option value="4">Cross Dissolve</option>
+          <option value="5">Fade in</option>
+        </select>
+        <br /><br />
+        <label>End Transition: </label>
+        <select class="tStart" name="tStart">
+          <option value="1">None</option>
+          <option value="2">Dissolve</option>
+          <option value="3">Wipe</option>
+          <option value="4">Cross Dissolve</option>
+          <option value="5">Fade out</option>
+        </select>
+        <br />
+        <input type="reset" value="Reset" />
+      </form>
+      <hr class="solid" />
+      <h3>Clip Colour Correction</h3>
+      <form>
+        <label>Contrast</label>
+        <input type="range" min="-10" max="10" value="0" />
+        <br />
+        <label>Saturation</label>
+        <input type="range" min="-10" max="10" value="0" />
+        <br />
+        <label>Brightness</label>
+        <input type="range" min="-10" max="10" value="0" />
+        <br />
+        <label>Hue</label>
+        <input type="range" min="-10" max="10" value="0" />
+        <br />
+        <input type="reset" value="Reset" />
+      </form>
+      <hr class="solid" />
+      <h3>Edit Video</h3>
+      <button type="button">Clear Unused Space From Timeline</button>
+    </div>
+  </div>
+  <div class="columnTimeline">
+    <div class="leftTimeline">
+      <img
+        class="zoom"
+        src="Images/timelineIcons/Cursor.png"
+        alt="logo1"
+        align="left"
+        class="logo1"
+        title="Cursor"
+      />
+      <img
+        class="zoom"
+        src="Images/timelineIcons/Erase.png"
+        alt="logo1"
+        align="left"
+        class="logo1"
+        title="Eraser"
+      />
+      <img
+        class="zoom"
+        src="Images/timelineIcons/Text.png"
+        alt="logo1"
+        align="left"
+        class="logo1"
+        title="Text Box"
+      />
+      <img
+        class="zoom"
+        src="Images/timelineIcons/Zoom.png"
+        alt="logo1"
+        align="left"
+        class="logo1"
+        title="Magnify"
+      />
+    </div>
+    <div class="rightTimeline">
+      <div class="timeline">
+        <div class="timeline" align="centerRectangle">
+          <div class="evenStripe2"></div>
+          <div class="oddStripe1"></div>
+          <div class="evenStripe1"></div>
+          <div class="oddStripe2"></div>
+          <div class="blueStripe"></div>
+          <div class="repeat">
+            <p>.</p>
+          </div>
+          <img
+            class="timebars"
+            src="Images/timebars.png"
+            alt="timebar"
+            height="30"
+          />
+          <img
+            class="timebars2"
+            src="Images/timebars.png"
+            alt="timebar"
+            height="30"
+          />
+          <img
+            class="timebars3"
+            src="Images/timebars.png"
+            alt="timebar"
+            height="30"
+          />
+          <img
+            class="timebars4"
+            src="Images/timebars.png"
+            alt="timebar"
+            height="30"
+          />
+          <img
+            class="razor"
+            src="Images/Razor.png"
+            alt="Razor"
+            height="30"
+            title="Razor"
+          />
+          <div class="a"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>

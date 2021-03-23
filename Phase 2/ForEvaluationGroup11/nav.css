@@ -1,0 +1,89 @@
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(37, 37, 37);
+}
+
+.dropbtn:hover {
+  color: rgb(165, 165, 165);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownlogo {
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(50, 50, 50);
+  min-width: 250%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a:hover {
+  color: rgb(165, 165, 165);
+}
+.dropdown-content a {
+  color: white;
+  padding: 2px 2px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(173, 61, 61);
+  margin-bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+.navBar {
+  position: relative;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+}
+
+.import a:after {
+  margin-top: 5px;
+  content: "";
+  width: 0px;
+  height: 4px;
+  display: block;
+  background: rgb(143, 143, 143);
+  transition: 300ms;
+}
+.import a:hover:after {
+  width: 100%;
+}
+.import a {
+  left: 5%;
+  right: 86%;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10%;
+}
+.import a:hover {
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+}
