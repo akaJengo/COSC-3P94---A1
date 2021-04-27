@@ -1,0 +1,31 @@
+/* Allows buttons to decrease in brightness when hovered */
+.prevBut img:hover {
+  filter: brightness(50%);
+}
+
+/* Allows buttons to enlargen when hovered */
+.zoom {
+  transition: transform 0.2s; /* Time to enlargen */
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.2); /* Enlargen by 25% (125% scaling)*/
+}
+
+/* Buttons Formatting */
+.prevBut img {
+  margin: 2.5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
+}
+
+/* Buttons Group Background */
+.prevBut {
+  background-color: rgb(30, 30, 30);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+}

@@ -1,0 +1,124 @@
+/* Timeline Body */
+.timeline {
+  border-color: rgb(53, 53, 53);
+  border-top-style: solid;
+  border-top-width: 1px;
+
+  height: 105px;
+  width: 100%;
+  background-color: rgb(38, 38, 38);
+}
+
+/* TimeLine Positioning*/
+.columnTimeline {
+  height: 23vh;
+  overflow: hidden;
+}
+.leftTimeline {
+  text-align: center;
+  float: left;
+  width: 70px;
+  height: 190px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(53, 53, 53);
+}
+.leftTimeline img {
+  margin-left: 10px;
+  margin-top: 10%;
+  padding: 7%;
+  width: 20px;
+  cursor: pointer;
+}
+.rightTimeline {
+  float: left;
+  width: 60%;
+  height: 190px;
+}
+
+/* Creates and repeats Timebar "ticks" at bottom of TimeLine*/
+.timebars {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 10px;
+  width: 30%;
+}
+.timebars2 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 30.5%;
+  width: 30%;
+}
+.timebars3 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 60.5%;
+  width: 30%;
+}
+.timebars4 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 1578px;
+}
+.repeat {
+  background-image: ("Images/timebars.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  margin-top: 110px;
+  width: 100%;
+}
+
+/* TimeLine Background Stripes*/
+.oddStripe1 {
+  height: 45px;
+  width: 100%;
+  background-color: darkgrey;
+  position: absolute;
+  margin-top: 45px;
+}
+.oddStripe2 {
+  height: 45px;
+  width: 100%;
+  background-color: darkgrey;
+  position: absolute;
+  margin-top: 135px;
+}
+.evenStripe1 {
+  height: 45px;
+  width: 100%;
+  background-color: grey;
+  position: absolute;
+  margin-top: 90px;
+}
+.evenStripe2 {
+  height: 45px;
+  width: 100%;
+  background-color: grey;
+  position: absolute;
+}
+.blueStripe {
+  height: 5px;
+  width: 100%;
+  background-color: rgb(98, 182, 197);
+  position: absolute;
+  margin-top: 130px;
+}
+
+/* Formatting for Razor Object */
+.razorBackground {
+  height: 160px;
+  width: 10px;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.razor {
+  height: 180px;
+  width: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  position: absolute;
+}
