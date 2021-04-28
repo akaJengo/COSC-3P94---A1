@@ -21,31 +21,31 @@
       <div class="dropdown">
         <button class="dropbtn">File</button>
         <div class="dropdown-content">
-          <a href="#">New File</a>
-          <a href="#">New Window</a>
+          <a href="#" title="(Ctrl+N)">New File</a>
+          <a href="#" title="(Alt+N)"> New Window</a>
           <hr class="solid" />
-          <a href="#">Open File</a>
+          <a href="#" title="(Ctrl+O)">Open File</a>
           <a href="#">Open Recent</a>
           <hr class="solid" />
-          <a href="#">Save File</a>
-          <a href="#">Save As</a>
-          <a href="#">Save Copy</a>
+          <a href="#" title="(Ctrl+S)">Save File</a>
+          <a href="#" title="(Ctrl+Shift+S)">Save As</a>
+          <a href="#" title="(Alt+S)">Save Copy</a>
           <hr class="solid" />
-          <a href="#">Import</a>
-          <a href="#">Export</a>
+          <a href="#" title="(Ctrl+I)">Import</a>
+          <a href="#" title="(Ctrl+Shift+E)">Export</a>
           <hr class="solid" />
-          <a href="#">Exit</a>
+          <a href="#" title="(Alt+E)">Exit</a>
         </div>
       </div>
       <div class="dropdown">
         <button class="dropbtn">Edit</button>
         <div class="dropdown-content">
-          <a href="#">Undo</a>
-          <a href="#">Redo</a>
+          <a href="#" title="(Ctrl+Z)">Undo</a>
+          <a href="#" title="(Ctrl+Y)">Redo</a>
           <hr class="solid" />
-          <a href="#">Cut</a>
-          <a href="#">Copy</a>
-          <a href="#">Paste</a>
+          <a href="#" title="(Ctrl+X)">Cut</a>
+          <a href="#" title="(Ctrl+C)">Copy</a>
+          <a href="#" title="(Ctrl+V)">Paste</a>
         </div>
       </div>
       <div class="dropdown">
@@ -94,27 +94,15 @@
   </nav>
   <div class="row">
     <div class="column left">
-      <div class="import">
-        <form action="/action_page.php">
-          <input
-            type="file"
-            id="myFile"
-            name="filename"
-            style="color: white;"
-          />
-          <input type="submit" value="Upload" />
-        </form>
-      </div>
-      <div class="add">
-        <div class="AddClip" title="Import Clip">
-          <!-- <img
-            src="Images/trash.png "
-            alt="trash"
-            align="left"
-            class="logo1"
-            width="20px"
-          /> -->
-        </div>
+      <div class="upload">
+        <img
+          class="zoom"
+          src="Images/Upload.png "
+          alt="upload"
+          align="left"
+          class="logo1"
+          width="90px"
+        />
       </div>
       <div class="importClips">
         <img
@@ -232,7 +220,7 @@
           width="100px"
         />
       </div>
-      <div class="import" title="Drag Clip Here to Delete">
+      <div class="import" title="Drag Clip Here to Delete (Ctrl+Delete)">
         <img
           class="zoom"
           src="Images/trash.png "
@@ -258,21 +246,21 @@
             src="Images/View/Reset.png"
             alt="Reset"
             height="28px"
-            title="Reset"
+            title="Reset (Ctrl+R)"
           />
           <img
             class="zoom"
             src="Images/View/SBButt.png"
             alt="skip back"
             height="28px"
-            title="Skip Back"
+            title="Skip Back   (Shift+Ctrl+G)"
           />
           <img
             class="zoom"
             src="Images/View/RRButt.png"
             alt="rewind"
             height="28"
-            title="Rewind"
+            title="Rewind   (Ctrl+G)"
           />
           <!-- <img
             class="zoom"
@@ -286,21 +274,21 @@
             src="Images/View/PlayButt.png"
             alt="play"
             height="28"
-            title="Play"
+            title="Play  (Ctrl+H)"
           />
           <img
             class="zoom"
             src="Images/View/FFButt.png"
             alt="fast forward"
             height="28"
-            title="Fast Forward"
+            title="Fast Forward   (Ctrl+F)"
           />
           <img
             class="zoom"
             src="Images/View/SFButt.png"
             alt="skip forward"
             height="28"
-            title="Skip Forward"
+            title="Skip ForwardForward   (Shift+Ctrl+F)"
           />
         </div>
       </div>
@@ -398,7 +386,7 @@
         <input type="reset" value="Reset" />
         <br /><br />
         <hr class="solid" />
-        <button type="button">Clear Unused Space From Timeline</button>
+        <button type="button">Remove Gaps</button>
       </form>
       <hr class="solid" />
       <h3>Clip Colour Correction</h3>
@@ -422,7 +410,8 @@
         <script>
           function brightnessFunction() {
             var x = document.getElementById("myInput").value;
-            document.getElementById("brightnessValue").innerHTML = " " + x;
+            document.getElementById("brightnessValue").innerHTML =
+              " " + x + "%";
           }
         </script>
         <br />
@@ -444,7 +433,7 @@
         alt="logo1"
         align="center"
         class="logo1"
-        title="Cursor"
+        title="Cursor (Ctrl+Shift+C)"
         height="18"
         width="29"
       />
@@ -454,7 +443,7 @@
         alt="logo1"
         align="center"
         class="logo1"
-        title="Eraser"
+        title="Eraser (Ctrl+E)"
         height="18"
         width="29"
       />
@@ -464,7 +453,7 @@
         alt="logo1"
         align="center"
         class="logo1"
-        title="Text Box"
+        title="Text Box (Ctrl+T)"
         height="18"
         width="29"
       />
@@ -474,7 +463,7 @@
         alt="logo1"
         align="center"
         class="logo1"
-        title="Magnify"
+        title="Magnify (Ctrl+M)"
         height="18"
         width="29"
       />
@@ -484,7 +473,7 @@
         alt="logo1"
         align="center"
         class="logo1"
-        title="Scissors"
+        title="Scissors (Alt+S)"
         height="18"
         width="29"
       />

@@ -46,14 +46,14 @@
   text-decoration: none;
   display: block;
 }
-
-.topnav {
+/*.topnav {
   overflow: hidden;
   background-color: rgb(173, 61, 61);
   margin-bottom: 10px;
   position: absolute;
   width: 100%;
-}
+}*/
+
 .navBar {
   position: relative;
   width: 100%;
